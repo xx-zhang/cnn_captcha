@@ -22,6 +22,6 @@ RUN wget -qO  /get-pip.py https://bootstrap.pypa.io/get-pip.py && \
 
 ADD . /usr/src/app
 
-RUN pip3 install -r /usr/src/app/requirements.txtt
+RUN pip3 install -r /usr/src/app/requirements.txt
 
 USER root
