@@ -20,8 +20,8 @@ RUN wget -qO  /get-pip.py https://bootstrap.pypa.io/get-pip.py && \
         && rm -rf /var/cache/apk/*
 # TODO alibevent-dev 没有所以被删除了, NOTE 这里
 
-ADD . /user/src/app
+ADD . /usr/src/app
 
-RUN pip3 install -r /usr/src/app/requirements.txt
+RUN pip3 install -r /usr/src/app/requirements.txtt
 
 USER root

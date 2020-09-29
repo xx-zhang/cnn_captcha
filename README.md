@@ -9,6 +9,9 @@ use CNN recognize captcha by tensorflow.
 如果你需要识别点选、拖拽类验证码，或者有目标检测需求，也可以参考这个项目[nickliqian/darknet_captcha](https://github.com/nickliqian/darknet_captcha)。
 
 # 时间表
+## 2020.9.29 
+- xx-zhang 投入使用和测试 【增加dockerfile】
+
 #### 2018.11.12
 初版Readme.md  
 #### 2018.11.21
